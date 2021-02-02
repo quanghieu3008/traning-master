@@ -4,8 +4,9 @@ import ShowInput from './components/ShowInput';
 import useRender from './hooks.js/useRender';
 
 function App() {
-    const [numbers, setNumBer] = useState(0)
     const [{ counter }] = useRender();
+    const [numbers, setNumBer] = useState(0)
+
     console.log("App");
     console.log("Số lần render:", counter);
     return (
