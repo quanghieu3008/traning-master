@@ -4,7 +4,6 @@ function useNumber(props) {
     let counter = useRef(0);
 
     useEffect(() => {
-        console.log("sao k chạy");
         counter.current++;
     }, [number]);
 
