@@ -8,7 +8,7 @@ function App() {
     const [numbers, setNumBer] = useState(0)
 
     console.log("App");
-    console.log("Số lần render:", counter);
+    console.log("button render lai {useref}}", counter);
     return (
         <div style={{ display: 'flex', flexDirection: 'center', justifyContent: 'center', margin: "100px" }}>
             {numbers}
@@ -16,7 +16,6 @@ function App() {
                 setNumBer={setNumBer}
                 numbers={numbers}
             />
-            <div>  Số lần render:{counter}</div>
         </div>
     );
 }
